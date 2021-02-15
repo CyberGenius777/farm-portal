@@ -1,0 +1,8 @@
+export const MAIN = '/'
+export const PORTALS = '/portals'
+export const INTERESTING_RESOURCES = '/interesting_resources'
+export const YOUTUBE_CHANNELS = '/youtube-channels'
+export const TRAFFIC_ANALYSIS = '/traffic-analysis'
+export const AFFILIATE_PROGRAMS = '/affiliate-programs'
+export const TERMINOLOGY = '/terminology'
+export const SERVICES = '/services'

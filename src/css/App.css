@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@font-face {
+  font-family: 'Marvin';
+  src: url("/src/fonts/ofont.ru_Marvin.ttf") format("ttf");
+}
+
+body {
+  font-family: 'Marvin', sans-serif;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu {
+  background-image: url("https://images.pexels.com/photos/775203/pexels-photo-775203.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 15%;
+          flex: 0 0 15%;
+  min-height: 100vh;
+}
+
+.content {
+  background-image: url(https://365psd.ru/images/backgrounds/blackmamba.png);
+  min-height: 100vh;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 83.7%;
+          flex: 0 0 83.7%;
+  padding: 10px;
+}
+
+.active {
+  color: #f00;
+}
+
+.nav {
+  padding: 0 10px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav__item {
+  border: 1px solid #f8f8f8;
+  background: #ff9100;
+  list-style: none;
+  width: 200px;
+  -webkit-transition: inherit;
+  -o-transition: inherit;
+  transition: inherit;
+}
+
+.nav__item:hover {
+  background: #ff9100;
+}
+
+.nav__link {
+  color: #170f49;
+  font-weight: normal;
+  display: block;
+  padding: 20px;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav__link:hover {
+  color: #fff;
+}
